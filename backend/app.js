@@ -12,8 +12,8 @@ app.post("/temperature", (req, res) => {
   res.send("Temperature Received");
 });
 
-app.listen(5000, () => {
-  console.log("Server Running on Port 5000");
-});
+// app.listen(5000, () => {
+//   console.log("Server Running on Port 5000");
+// });
 
 module.exports = app;
