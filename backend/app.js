@@ -6,10 +6,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post("/temperature", (req, res) => {
-  console.log(req.body);
+app.get("/temperature", (req, res) => {
+  console.log("Metro");
 
-  res.send("Temperature Received");
+
+  // res.send("Temperature Received");
 });
 
 // app.listen(5000, () => {
